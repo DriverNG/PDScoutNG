@@ -128,3 +128,10 @@ a {
 .mobileBg {
   display: none;
 }
+.formBox > p {
+  color: #E381BC;
+  display: flex;
+  position: absolute;
+  right: 480px;
+  top: 100px;
+}

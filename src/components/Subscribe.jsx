@@ -33,12 +33,7 @@ export default function Subscribe() {
         <button id="button" type="submit">
           Get notified
         </button>
-        {!isEmailValid ? <p className="error" style={{color: "#E381BC",
-        position: "absolute",
-        display: "flex",
-        right: "480px",
-        top: "100px"
-        }}>invalid email address</p> : null}
+        {!isEmailValid ? <p>invalid email address</p> : null}
       </form>
     </>
   );

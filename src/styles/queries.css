@@ -71,7 +71,7 @@
         width: 50%;
         font-size: 18px;
     }
-    .error {
+    .formBox > p {
         right: 278px;
         top: 80px;
     }
