@@ -1,0 +1,78 @@
+@media (max-width: 768px) {
+    .navLogo > img {
+        width: 200px;
+        left: 260px;
+    }
+    #home {
+        background: url(../assets/mobile_blur.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .container {
+        display: flex;
+        text-align: center;
+        left: 100px;
+        top: 0px;
+    }
+    .textBox {
+        position: absolute;
+        top: 140px;
+        text-align: center;
+    }
+    .textBox > h1 {
+        font-size: 49px;
+    }
+    .textBox > p {
+        margin-top: 25px;
+        font-size: 20px;
+    }
+    .box img {
+        display: none;
+    }
+    .mobileBg {
+        display: block;
+        position: relative;
+        top: 80px;
+        right: 32px;
+        width: 83%;
+    }
+    .newsBox {
+        left: 105px;
+        display: block;
+        width: 70%;
+        top: unset;
+        bottom: 100px;
+    }
+    .launch {
+        left: unset;
+    }
+    .launch > h3 {
+        font-size: 22px;
+        font-weight: 200;
+        text-align: center;
+    }
+    .launch > p {
+        font-size: 16px;
+        width: 430px;
+    }
+    .formBox {
+        right: unset;
+        top: 10px;
+    }
+    .input.input {
+        display: flex;
+        padding-left: 20px;
+        gap: 25px;
+        height: 50px;
+        font-size: 18px;
+    }
+    #button {
+        height: 50px;
+        width: 50%;
+        font-size: 18px;
+    }
+    #button > p{
+        right: 278px;
+        top: 80px;
+    }
+}

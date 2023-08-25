@@ -1,0 +1,130 @@
+a {
+  cursor: pointer;
+}
+
+.navLogo > img {
+  width: 250px;
+  cursor: pointer;
+  display: flex;
+  position: absolute;
+  left: 245px;
+  top: 65px;
+}
+  
+.container {
+  width: 85%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  color: white;
+  position: relative;
+  top: 32px;
+  left: 248px;
+  text-align: left;
+}
+
+#home {
+  background: url(../assets/background_blur.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.box img{
+  display: flex;
+  position: "relative";
+  width: "30%";
+  left: "200px";
+  top: "100px";
+}
+
+.textBox {
+  position: relative;
+  top: 194px;
+}
+.textBox h1 {
+  font-size: 63px;
+  font-weight: 400;
+}
+  
+.textBox p {
+  margin-top: 58px;
+  font-size: 22.4px;
+  color: white;
+  line-height: 1.5;
+  font-weight: 200;
+  width: 540px;
+}
+  
+.newsBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  color: white;
+  width: 73%;
+  position: relative;
+  top: 120px;
+  left: 275px;
+  bottom: 0px;
+  padding: 45px;
+}
+
+.launch {
+  position: relative;
+  left: 18px;
+}
+
+.launch > h3 {
+  font-size: 32.4px;
+  font-weight: 400;
+}
+  
+.launch > p {
+  margin-top: 1rem;
+  font-size: 20px;
+  color: white;
+  line-height: 1.5;
+  font-weight: 200;
+  width: 520px;
+}
+
+.formBox {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  top: 20px;
+  right: 28px;
+}
+
+.input {
+  padding: 15px;
+  font-size: 24px;
+  width: 90%;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+}
+
+.input.input {
+  padding-left: 45px;
+}
+#button {
+    margin: 20px;
+    padding: 10px;
+    width: 42%;
+    background-color: #FFCC66;
+    border: none;
+    color: black;
+    font-size: 24px;
+    height: 60px;
+    border-radius: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.mobileBg {
+  display: none;
+}
