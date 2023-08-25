@@ -33,7 +33,7 @@ export default function Subscribe() {
         <button id="button" type="submit">
           Get notified
         </button>
-        {!isEmailValid ? <p style={{color: "#E381BC",
+        {!isEmailValid ? <p className="error" style={{color: "#E381BC",
         position: "absolute",
         display: "flex",
         right: "480px",

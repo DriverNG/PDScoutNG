@@ -71,7 +71,7 @@
         width: 50%;
         font-size: 18px;
     }
-    #button > p{
+    .error {
         right: 278px;
         top: 80px;
     }
